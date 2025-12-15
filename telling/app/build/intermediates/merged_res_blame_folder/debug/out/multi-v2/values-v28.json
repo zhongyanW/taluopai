@@ -4,7 +4,7 @@
             "outputFile": "com.bhcj.telling.app-mergeDebugResources-16:/values-v28/values-v28.xml",
             "map": [
                 {
-                    "source": "/home/zhongyan-w/.gradle/caches/transforms-4/0a90241441e50e5a36ee5719995b5fdd/transformed/appcompat-1.2.0/res/values-v28/values-v28.xml",
+                    "source": "/Users/wangzhongyan/.gradle/caches/transforms-4/0a90241441e50e5a36ee5719995b5fdd/transformed/appcompat-1.2.0/res/values-v28/values-v28.xml",
                     "from": {
                         "startLines": "2,3,4,8",
                         "startColumns": "4,4,4,4",

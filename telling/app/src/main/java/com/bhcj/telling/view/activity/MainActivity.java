@@ -1,114 +1,75 @@
+
 package com.bhcj.telling.view.activity;
 
 import android.os.Bundle;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
+import androidx.appcompat.app.AppCompatActivity;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Random;
 
-import androidx.viewpager2.widget.ViewPager2;
+public class MainActivity extends AppCompatActivity {
+    private LinearLayout cardContainer;
+    private final Random random = new Random();
 
-import com.bhcj.telling.R;
-import com.bhcj.telling.view.adapter.MainAdapter;
-
-/**
- * 主界面Activity
- * 负责管理应用的主要界面，包括三个Tab页面：占卜、卦图列表、解卦
- * 使用ViewPager2和RadioGroup实现页面切换功能
- * 
- * @author bhcj
- * @version 1.0
- */
-public class MainActivity extends BaseActivity {
-
-    /** ViewPager2控件，用于页面滑动切换 */
-    private ViewPager2 viewPager;
-    
-    /** RadioGroup控件，包含底部导航按钮组 */
-    private RadioGroup radioGroup;
-    
-    /** 占卜按钮 */
-    private RadioButton divineBtn;
-    
-    /** 卦图按钮 */
-    private RadioButton diagramsBtn;
-    
-    /** 解卦按钮 */
-    private RadioButton jgBtn;
-
-    /**
-     * Activity创建时的回调方法
-     * 设置布局文件并初始化视图组件
-     * 
-     * @param savedInstanceState 保存的实例状态
-     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main); // 设置主界面布局
-        initView(); // 初始化视图组件
+        setContentView(R.layout.activity_main);
+
+        cardContainer = findViewById(R.id.cardContainer);
+        Button btnDaily = findViewById(R.id.btnDaily);
+        Button btnThree = findViewById(R.id.btnThree);
+
+        btnDaily.setOnClickListener(v -> drawCards(1));
+        btnThree.setOnClickListener(v -> drawCards(3));
     }
 
-    /**
-     * 初始化视图组件
-     * 设置ViewPager2适配器，配置页面切换监听器和底部导航按钮点击事件
-     */
-    private void initView() {
-        // 初始化控件
-        viewPager = findViewById(R.id.viewpager);
-        radioGroup = findViewById(R.id.layout_tab);
+    private void drawCards(int count) {
+        cardContainer.removeAllViews(); // 清空上次结果
 
-        divineBtn = findViewById(R.id.divine);
-        diagramsBtn = findViewById(R.id.diagrams);
-        jgBtn = findViewById(R.id.jgBut);
+        // 复制牌堆并洗牌
+        List<TarotCard> deck = new ArrayList<>(TarotDeck.DECK);
+        Collections.shuffle(deck);
 
-        // 创建并设置ViewPager2适配器
-        MainAdapter adapter = new MainAdapter(this);
-        
-        // 注册页面切换监听器，当页面切换时同步更新底部导航按钮状态
-        viewPager.registerOnPageChangeCallback(new ViewPager2.OnPageChangeCallback() {
-            @Override
-            public void onPageSelected(int position) {
-                // 根据当前页面位置更新对应的RadioButton选中状态
-                switch (position) {
-                    case 0: // 占卜页面
-                        divineBtn.setChecked(true);
-                        diagramsBtn.setChecked(false);
-                        jgBtn.setChecked(false);
-                        break;
-                    case 1: // 卦图列表页面
-                        divineBtn.setChecked(false);
-                        diagramsBtn.setChecked(true);
-                        jgBtn.setChecked(false);
-                        break;
-                    case 2: // 解卦页面
-                        divineBtn.setChecked(false);
-                        diagramsBtn.setChecked(false);
-                        jgBtn.setChecked(true);
-                        break;
-                }
-            }
-        });
-        
-        // 设置ViewPager2适配器
-        viewPager.setAdapter(adapter);
+        for (int i = 0; i < count; i++) {
+            TarotCard card = deck.get(i);
+            boolean isReversed = random.nextBoolean(); // 随机正逆位
 
-        // 设置底部导航按钮点击监听器，当按钮被点击时切换到对应页面
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                int id = group.getCheckedRadioButtonId();
-                switch (id) {
-                    case R.id.divine: // 占卜按钮被点击
-                        viewPager.setCurrentItem(0);
-                        break;
-                    case R.id.diagrams: // 卦图按钮被点击
-                        viewPager.setCurrentItem(1);
-                        break;
-                    case R.id.jgBut: // 解卦按钮被点击
-                        viewPager.setCurrentItem(2);
-                        break;
-                }
-            }
-        });
+            // 创建垂直布局（图片 + 文字）
+            LinearLayout cardLayout = new LinearLayout(this);
+            cardLayout.setOrientation(LinearLayout.VERTICAL);
+            cardLayout.setGravity(android.view.Gravity.CENTER);
+
+            // 牌图
+            ImageView imageView = new ImageView(this);
+            imageView.setImageResource(card.drawableId);
+            if (isReversed) imageView.setRotation(180); // 逆位旋转180度
+            LinearLayout.LayoutParams imgParams = new LinearLayout.LayoutParams(
+                    dpToPx(180), dpToPx(280));
+            imgParams.setMargins(0, 0, dpToPx(16), 0);
+            imageView.setLayoutParams(imgParams);
+
+            // 解读文字
+            TextView textView = new TextView(this);
+            String position = count == 3 ? new String[]{"过去", "现在", "未来"}[i] : "今日运势";
+            String meaning = isReversed ? card.reversed : card.upright;
+            textView.setText(position + "：\n" + card.name + "\n(" +
+                    (isReversed ? "逆位" : "正位") + ")\n" + meaning);
+            textView.setTextSize(16);
+            textView.setGravity(android.view.Gravity.CENTER);
+
+            cardLayout.addView(imageView);
+            cardLayout.addView(textView);
+            cardContainer.addView(cardLayout);
+        }
     }
 
+    private int dpToPx(int dp) {
+        return (int) (dp * getResources().getDisplayMetrics().density);
+    }
 }
