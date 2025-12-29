@@ -1,0 +1,274 @@
+[
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_shape_for_custom_spinner.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/shape_for_custom_spinner.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_05_the_hierophant.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_05_the_hierophant.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_selector_for_custom_spinner.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/selector_for_custom_spinner.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_12_the_hanged_man.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_12_the_hanged_man.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_fragment_shaking.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/fragment_shaking.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_title_bar.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/title_bar.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_zhanbu.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_zhanbu.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_19_the_sun.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_19_the_sun.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_back.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/back.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_background.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/background.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_fragment_gua_tu_list.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/fragment_gua_tu_list.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_guatu0.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/guatu0.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_18_the_moon.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_18_the_moon.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_guatu1.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_guatu1.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_fragment_throw_coins.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/fragment_throw_coins.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_04_the_emperor.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_04_the_emperor.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_15_the_devil.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_15_the_devil.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_front.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/front.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_activity_resolving.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/activity_resolving.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_21_the_world.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_21_the_world.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_guatu.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_guatu.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_03_the_empress.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_03_the_empress.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_17_the_star.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_17_the_star.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_zhanbu0.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_zhanbu0.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_20_judgement.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_20_judgement.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_00_the_fool.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_00_the_fool.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_07_the_chariot.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_07_the_chariot.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_10_wheel_of_fortune.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_10_wheel_of_fortune.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_13_death.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_13_death.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_fragment_header.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/fragment_header.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_cups_01.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_cups_01.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_batu.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/batu.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable-xxxhdpi_yuanhuan.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable-xxxhdpi/yuanhuan.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_gua_item.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/gua_item.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_jiegua1.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_jiegua1.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_01_the_magician.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_01_the_magician.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_zhanbu1.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_zhanbu1.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/anim_view_anim.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/anim/view_anim.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_gua_dialog.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/gua_dialog.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_02_the_high_priestess.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_02_the_high_priestess.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_06_the_lovers.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_06_the_lovers.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_jiegua.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_jiegua.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/raw_foley_20_pence_peice_put_down_on_surface.mp3.flat",
+        "source": "com.bhcj.telling.app-main-20:/raw/foley_20_pence_peice_put_down_on_surface.mp3"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_11_justice.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_11_justice.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_16_the_tower.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_16_the_tower.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_09_the_hermit.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_09_the_hermit.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_activity_explain.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/activity_explain.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_jiegua0.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_jiegua0.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_explain.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/explain.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_14_temperance.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_14_temperance.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_taluo_08_strength.jpg.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/taluo_08_strength.jpg"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_guatu1.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/guatu1.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/layout_activity_main.xml.flat",
+        "source": "com.bhcj.telling.app-main-20:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.bhcj.telling.app-pngs-13:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bhcj.telling.app-merged_res-18:/drawable_tab_guatu0.png.flat",
+        "source": "com.bhcj.telling.app-main-20:/drawable/tab_guatu0.png"
+    }
+]

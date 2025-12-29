@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="subjects">
+        <item>反反反(老阳)</item>
+        <item>正正反(少阳)</item>
+        <item>正反正(少阳)</item>
+        <item>反正正(少阳)</item>
+        <item>正正正(老阴)</item>
+        <item>正反反(少阴)</item>
+        <item>反正反(少阴)</item>
+        <item>反反正(少阴)</item>
+    </string-array>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorBackground">#fff6e9</color>
+    <color name="colorBorder">#DEBE9E</color>
+    <color name="colorLink">#2440b3</color>
+    <color name="colorPrimary">#C83C23</color>
+    <color name="colorPrimaryDark">#C83C23</color>
+    <color name="colorRed">#C83C23</color>
+    <color name="colorTitle">#fff</color>
+    <color name="contentBackground">#FFFBF6</color>
+    <color name="titleBackground">#fff6e9</color>
+    <string name="app_name">易经占卜（8组）</string>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="titleTextColor">@color/colorTitle</item>
+        <item name="titleTextStyle">@style/MyActionBarTitleText</item>
+    </style>
+    <style name="GuaAppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        
+        
+        <item name="android:windowFullscreen">true</item>
+        
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/colorTitle</item>
+        <item name="android:textSize">@android:dimen/app_icon_size</item>
+        
+    </style>
+    <style name="customSpinnerStyle" parent="android:Widget.ListView.DropDown">
+        <item name="android:textAlignment">center</item>
+        <item name="divider">@color/contentBackground</item>
+        <item name="android:dividerHeight">1dp</item>
+    </style>
+    <style name="customTheme">
+        <item name="dropDownListViewStyle">@style/customSpinnerStyle</item>
+    </style>
+</resources>

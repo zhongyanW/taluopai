@@ -1,0 +1,7 @@
+#Mon Nov 20 21:36:14 CST 2023
+base.0=/Users/renchunbing/AndroidStudioProjects/telling/app/build/intermediates/dex/debugAndroidTest/mergeExtDexDebugAndroidTest/classes.dex
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/Users/renchunbing/AndroidStudioProjects/telling/app/build/intermediates/dex/debugAndroidTest/mergeProjectDexDebugAndroidTest/classes.dex

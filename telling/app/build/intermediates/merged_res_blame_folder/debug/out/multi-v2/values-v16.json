@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.bhcj.telling.app-mergeDebugResources-16:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "/Users/zhangye/.gradle/caches/transforms-4/0a90241441e50e5a36ee5719995b5fdd/transformed/appcompat-1.2.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/zhangye/.gradle/caches/transforms-4/5a45bcddb07b75c629582ca1013d0e75/transformed/core-1.6.0/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

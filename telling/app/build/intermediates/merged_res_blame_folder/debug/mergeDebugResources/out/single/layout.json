@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/fragment_shaking.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/fragment_shaking.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/fragment_throw_coins.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/fragment_throw_coins.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/activity_resolving.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/activity_resolving.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/activity_explain.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/activity_explain.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/gua_dialog.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/gua_dialog.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/title_bar.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/title_bar.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/fragment_header.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/fragment_header.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/fragment_gua_tu_list.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/fragment_gua_tu_list.xml"
+    },
+    {
+        "merged": "com.bhcj.telling.app-mergeDebugResources-51:/layout/gua_item.xml",
+        "source": "com.bhcj.telling.app-main-54:/layout/gua_item.xml"
+    }
+]
